@@ -1,4 +1,3 @@
-# tank
 <h1>Game Tank</h1>
 <p>Mô phỏng lại trò chơi kinh điển Tank 1990</p>
 <h2>Hướng dẫn sử dụng</h2>

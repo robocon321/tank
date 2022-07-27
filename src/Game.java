@@ -34,7 +34,7 @@ public class Game extends JFrame{
 	}
 	
 	public void init() {
-		VarPublic.MAP = new Map(txtFile_to_matrix(new File("C:\\Users\\samhangngoai\\eclipse-workspace\\GameTank\\resource\\stage_"+VarPublic.LEVEL+".txt")));
+		VarPublic.MAP = new Map(txtFile_to_matrix(new File("resource\\stage_"+VarPublic.LEVEL+".txt")));
 		b = new GameBoard();
 		this.setTitle("Game tank");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
